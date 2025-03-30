@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95ed9c64-89a2-40c6-a295-08970351ce7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/auth-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="95ed9c64-89a2-40c6-a295-08970351ce7b" name="Changes" comment="modules added:&#10;- api-gateway, &#10;- user-service, &#10;- auth-service, &#10;- job-offer-importer&#10;- job-offer-service&#10;- notification-service, &#10;- monitoring-service">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +13,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -48,6 +50,15 @@
       <option name="presentableId" value="Default" />
       <updated>1743266638574</updated>
     </task>
+    <task id="LOCAL-00001" summary="modules added:&#10;- api-gateway, &#10;- user-service, &#10;- auth-service, &#10;- job-offer-importer&#10;- job-offer-service&#10;- notification-service, &#10;- monitoring-service">
+      <option name="closed" value="true" />
+      <created>1743316238899</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743316238899</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -61,7 +72,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="develop" />
                       </list>
                     </value>
                   </entry>
@@ -72,5 +83,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modules added:&#10;- api-gateway, &#10;- user-service, &#10;- auth-service, &#10;- job-offer-importer&#10;- job-offer-service&#10;- notification-service, &#10;- monitoring-service" />
+    <option name="LAST_COMMIT_MESSAGE" value="modules added:&#10;- api-gateway, &#10;- user-service, &#10;- auth-service, &#10;- job-offer-importer&#10;- job-offer-service&#10;- notification-service, &#10;- monitoring-service" />
   </component>
 </project>
