@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95ed9c64-89a2-40c6-a295-08970351ce7b" name="Changes" comment="modules added:&#10;- api-gateway, &#10;- user-service, &#10;- auth-service, &#10;- job-offer-importer&#10;- job-offer-service&#10;- notification-service, &#10;- monitoring-service">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="95ed9c64-89a2-40c6-a295-08970351ce7b" name="Changes" comment="docker-compose:&#10;added postgres, keyclock, zookeeper, kafka, cassandra, elasticsearch, prometheus, grafana" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="feature/architecture" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,7 +56,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743316238899</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="docker-compose:&#10;added postgres, keyclock, zookeeper, kafka, cassandra, elasticsearch, prometheus, grafana">
+      <option name="closed" value="true" />
+      <created>1743317005603</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743317005603</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,7 +78,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="develop" />
+                        <option value="origin/develop" />
                       </list>
                     </value>
                   </entry>
@@ -86,6 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modules added:&#10;- api-gateway, &#10;- user-service, &#10;- auth-service, &#10;- job-offer-importer&#10;- job-offer-service&#10;- notification-service, &#10;- monitoring-service" />
-    <option name="LAST_COMMIT_MESSAGE" value="modules added:&#10;- api-gateway, &#10;- user-service, &#10;- auth-service, &#10;- job-offer-importer&#10;- job-offer-service&#10;- notification-service, &#10;- monitoring-service" />
+    <MESSAGE value="docker-compose:&#10;added postgres, keyclock, zookeeper, kafka, cassandra, elasticsearch, prometheus, grafana" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker-compose:&#10;added postgres, keyclock, zookeeper, kafka, cassandra, elasticsearch, prometheus, grafana" />
   </component>
 </project>
