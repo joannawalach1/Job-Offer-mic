@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95ed9c64-89a2-40c6-a295-08970351ce7b" name="Changes" comment="job-offer-importer: &#10;- updating JobOfferFetcher&#10;- job-offer-importer service, controller, repo&#10;- job-offer-dto, &#10;- CassandraConfiguration">
+    <list default="true" id="95ed9c64-89a2-40c6-a295-08970351ce7b" name="Changes" comment="job-offer-importer update: &#10;- updating JobOfferFetcher&#10;- job-offer-importer service, controller, repo&#10;- job-offer-dto, &#10;- CassandraConfiguration">
+      <change afterPath="$PROJECT_DIR$/job-offer-importer/src/main/java/pl/mic/joboffer/config/WebClientConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-offer-importer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/job-offer-importer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-offer-importer/src/main/java/pl/mic/joboffer/JobOffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/job-offer-importer/src/main/java/pl/mic/joboffer/JobOffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-offer-importer/src/main/java/pl/mic/joboffer/JobOfferController.java" beforeDir="false" afterPath="$PROJECT_DIR$/job-offer-importer/src/main/java/pl/mic/joboffer/JobOfferController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-offer-importer/src/main/java/pl/mic/joboffer/JobOfferFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/job-offer-importer/src/main/java/pl/mic/joboffer/JobOfferFetcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-offer-importer/src/main/java/pl/mic/joboffer/JobOfferService.java" beforeDir="false" afterPath="$PROJECT_DIR$/job-offer-importer/src/main/java/pl/mic/joboffer/JobOfferService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-offer-importer/src/main/java/pl/mic/joboffer/config/CassandraConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/job-offer-importer/src/main/java/pl/mic/joboffer/config/CassandraConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-offer-importer/src/main/java/pl/mic/joboffer/jobOffer/JobOfferImporterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/job-offer-importer/src/main/java/pl/mic/joboffer/JobOfferImporterApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/job-offer-importer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/job-offer-importer/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,9 +86,23 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose.yml.postgres: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="postgres" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.postgres: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743845469837</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="job-offer-importer update: &#10;- updating JobOfferFetcher&#10;- job-offer-importer service, controller, repo&#10;- job-offer-dto, &#10;- CassandraConfiguration">
+      <option name="closed" value="true" />
+      <created>1743845831671</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743845831671</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +177,7 @@
     <MESSAGE value="modules added:&#10;- api-gateway, &#10;- user-service, &#10;- auth-service, &#10;- job-offer-importer&#10;- job-offer-service&#10;- notification-service, &#10;- monitoring-service" />
     <MESSAGE value="docker-compose:&#10;added postgres, keyclock, zookeeper, kafka, cassandra, elasticsearch, prometheus, grafana" />
     <MESSAGE value="job-offer-importer: &#10;- updating JobOfferFetcher&#10;- job-offer-importer service, controller, repo&#10;- job-offer-dto, &#10;- CassandraConfiguration" />
-    <option name="LAST_COMMIT_MESSAGE" value="job-offer-importer: &#10;- updating JobOfferFetcher&#10;- job-offer-importer service, controller, repo&#10;- job-offer-dto, &#10;- CassandraConfiguration" />
+    <MESSAGE value="job-offer-importer update: &#10;- updating JobOfferFetcher&#10;- job-offer-importer service, controller, repo&#10;- job-offer-dto, &#10;- CassandraConfiguration" />
+    <option name="LAST_COMMIT_MESSAGE" value="job-offer-importer update: &#10;- updating JobOfferFetcher&#10;- job-offer-importer service, controller, repo&#10;- job-offer-dto, &#10;- CassandraConfiguration" />
   </component>
 </project>

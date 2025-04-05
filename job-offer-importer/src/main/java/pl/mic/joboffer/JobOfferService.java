@@ -3,7 +3,10 @@ package pl.mic.joboffer;
 import lombok.RequiredArgsConstructor;
 import org.reactivestreams.Publisher;
 import org.springframework.stereotype.Service;
-import reactor.core.publisher.Flux;
+import pl.mic.joboffer.dto.JobOfferDto;
+import reactor.core.publisher.Mono;
+
+import java.util.List;
 
 @Service
 @RequiredArgsConstructor
@@ -12,9 +15,7 @@ public class JobOfferService {
     private final JobOfferImporterRepository jobOfferImporterRepository;
     private final JobOfferFetcher jobOfferFetcher;
 
-    public Flux<? extends JobOffer> fetchAndSaveJobOffers() {
-        return jobOfferFetcher.fetchJobOffers()
-                .collectList()
-                .flatMapMany(list -> (Publisher<? extends JobOffer>) jobOfferImporterRepository.saveAll(list));
+    public List<JobOfferDto> fetchAndSaveJobOffers() {
+        return jobOfferFetcher.fetchJobOffers();
     }
 }
