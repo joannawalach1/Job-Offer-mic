@@ -42,9 +42,13 @@ services:
       - zookeeper
 
   cassandra:
-    image: cassandra:latest
-    ports:
-      - "9042:9042"
+      image: cassandra:3.11
+      container_name: cassandra
+      ports:
+        - "9042:9042"
+
+
+
 
   elasticsearch:
     image: elasticsearch:8.5.0
@@ -61,4 +65,4 @@ services:
   grafana:
     image: grafana/grafana:latest
     ports:
-      - "3000:3000"
+      - "4000:4000"
