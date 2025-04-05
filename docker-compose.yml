@@ -41,12 +41,16 @@ services:
     depends_on:
       - zookeeper
 
+
   cassandra:
-      image: cassandra:3.11
+      image: cassandra:4.1
       container_name: cassandra
       ports:
         - "9042:9042"
-
+      environment:
+        - CASSANDRA_CLUSTER_NAME=MyCassandraCluster
+        - CASSANDRA_DC=DC1
+        - CASSANDRA_ENDPOINT_SNITCH=GossipingPropertyFileSnitch
 
 
 
@@ -66,3 +70,4 @@ services:
     image: grafana/grafana:latest
     ports:
       - "4000:4000"
+

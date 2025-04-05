@@ -4,7 +4,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 import pl.mic.joboffer.dto.JobOfferDto;
 import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
 
+import java.util.List;
 import java.util.UUID;
 
 @Service
@@ -18,17 +20,12 @@ public class JobOfferFetcher {
                 .build();
     }
 
-    public Flux<JobOffer> fetchJobOffers() {
+    public List<JobOfferDto> fetchJobOffers() {
         return webClient.get()
                 .uri("/offers")
                 .retrieve()
                 .bodyToFlux(JobOfferDto.class)
-                .map(dto -> new JobOffer(
-                        UUID.randomUUID(),
-                        dto.company(),
-                        dto.title(),
-                        dto.salary(),
-                        dto.url()
-                ));
+                .collectList()
+                .block();
     }
 }
