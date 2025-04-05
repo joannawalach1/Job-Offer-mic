@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95ed9c64-89a2-40c6-a295-08970351ce7b" name="Changes" comment="docker-compose:&#10;added postgres, keyclock, zookeeper, kafka, cassandra, elasticsearch, prometheus, grafana">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/pl/mic/apigateway/apigateway/ApiGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/job-offer-importer/src/main/java/pl/mic/joboffer/JobOffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/job-offer-importer/src/main/java/pl/mic/joboffer/JobOfferController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/job-offer-importer/src/main/java/pl/mic/joboffer/JobOfferFetcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/job-offer-importer/src/main/java/pl/mic/joboffer/JobOfferImporterRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/job-offer-importer/src/main/java/pl/mic/joboffer/JobOfferService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/job-offer-importer/src/main/java/pl/mic/joboffer/config/CassandraConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/job-offer-importer/src/main/java/pl/mic/joboffer/dto/JobOfferDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/job-offer-importer/src/main/java/pl/mic/joboffer/jobOffer/JobOfferImporterApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/job-offer-importer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="95ed9c64-89a2-40c6-a295-08970351ce7b" name="Changes" comment="job-offer-importer: &#10;- updating JobOfferFetcher&#10;- job-offer-importer service, controller, repo&#10;- job-offer-dto, &#10;- CassandraConfiguration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job-offer-importer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/job-offer-importer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-offer-importer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/job-offer-importer/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/architecture" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -124,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743317005603</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="job-offer-importer: &#10;- updating JobOfferFetcher&#10;- job-offer-importer service, controller, repo&#10;- job-offer-dto, &#10;- CassandraConfiguration">
+      <option name="closed" value="true" />
+      <created>1743845469837</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743845469837</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +145,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modules added:&#10;- api-gateway, &#10;- user-service, &#10;- auth-service, &#10;- job-offer-importer&#10;- job-offer-service&#10;- notification-service, &#10;- monitoring-service" />
     <MESSAGE value="docker-compose:&#10;added postgres, keyclock, zookeeper, kafka, cassandra, elasticsearch, prometheus, grafana" />
-    <option name="LAST_COMMIT_MESSAGE" value="docker-compose:&#10;added postgres, keyclock, zookeeper, kafka, cassandra, elasticsearch, prometheus, grafana" />
+    <MESSAGE value="job-offer-importer: &#10;- updating JobOfferFetcher&#10;- job-offer-importer service, controller, repo&#10;- job-offer-dto, &#10;- CassandraConfiguration" />
+    <option name="LAST_COMMIT_MESSAGE" value="job-offer-importer: &#10;- updating JobOfferFetcher&#10;- job-offer-importer service, controller, repo&#10;- job-offer-dto, &#10;- CassandraConfiguration" />
   </component>
 </project>
