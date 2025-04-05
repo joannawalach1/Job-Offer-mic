@@ -1,0 +1,6 @@
+spring:
+  data:
+    cassandra:
+      contact-points: 127.0.0.1:9042
+      keyspace-name: cassandra1
+      local-datacenter: CASSANDRA1
